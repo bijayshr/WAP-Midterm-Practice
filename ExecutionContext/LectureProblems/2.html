@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>2</title>
+    <script>
+        function a() {
+            console.log(x); // consult Global for x and print 20 from Global
+        }
+        function b() {
+            const x = 10;
+            a(); // consult Global for a
+        }
+        const x = 20;
+        b();
+
+        //20
+    </script>
+</head>
+<body>
+
+</body>
+</html>

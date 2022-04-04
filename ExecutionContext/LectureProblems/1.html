@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>1</title>
+    <script>
+        let x = 1;
+        function foo(){
+            let y=2;
+            function bar(){
+                let z = 3;
+                function baz(){
+                    console.log(z);
+                    console.log(y);
+                    console.log(x);
+                    console.log(w);
+                }
+                baz();
+            }
+            bar();
+        }
+        foo();
+
+        //3
+        //2
+        //1
+        //Uncaught ReferenceError: w is not defined
+    </script>
+</head>
+<body>
+
+</body>
+</html>
