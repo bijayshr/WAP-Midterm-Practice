@@ -5,3 +5,5 @@ function myFunction() {
 document.write(myFunction());
 x = 5;
 document.write(myFunction());
+
+//8125
