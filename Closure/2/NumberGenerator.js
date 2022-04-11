@@ -11,4 +11,4 @@ function numberGenerator() {
 var number = numberGenerator();
 number();
 
-//2
+//Fixed
